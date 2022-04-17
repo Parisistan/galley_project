@@ -8,6 +8,10 @@ font-family: 'Poppins', ns-serif;
     --main-color: aliceblue;
 }
 
+.content {
+    margin: auto;
+}
+
 .hero {
     color: var(--main-color);
     text-align: center;
@@ -31,10 +35,8 @@ h1 {
     letter-spacing: 0.1em;
 }
 
-h2 {
-    /* text-align: center;
-    font-size: 65px;
-    line-height: 2; */
+p {
+    text-align: center;
     width: 208px;
     height: 28px;
     top: 276px;
@@ -43,15 +45,12 @@ h2 {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 h4 {
-    /* font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    position: absolute; */
+    /* position: absolute; */
     width: 460px;
     height: 60px;
     top: 438px;
@@ -76,5 +75,5 @@ h4 {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     background-color: var(--main-color);
-    color: #272142;
+    color: #000000;
 }
