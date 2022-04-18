@@ -10,13 +10,13 @@ font-family: 'Poppins', ns-serif;
     
     .content {
         margin: auto;
+        background-color: rgb(0, 0, 0);
+        color: var(--main-color);
     }
     
     .hero {
-        color: var(--main-color);
         text-align: center;
         font-weight: bold;
-        background-color: rgb(0, 0, 0);
         padding: 160px 25px;
     }
     
@@ -33,10 +33,9 @@ font-family: 'Poppins', ns-serif;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 28px;
         letter-spacing: 0.1em;
-        text-transform: uppercase;
     }
     
     h4 {
@@ -62,4 +61,9 @@ font-family: 'Poppins', ns-serif;
         height: 53px;
         left: 43%;
         top: 40px;
+    }
+    
+    .text {
+        margin: auto;
+        max-width: 600px;
     }
