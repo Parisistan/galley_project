@@ -1,6 +1,6 @@
     /* * font-family: 'Playfair Display',
 serif;
-font-family: 'Poppins', ns-serif;
+
 *f  */
     
      :root {
@@ -46,6 +46,12 @@ font-family: 'Poppins', ns-serif;
         line-height: 30px;
     }
     
+    .text {
+        margin: auto;
+        max-width: 600px;
+        font-family: 'Poppins', ns-serif;
+    }
+    
     .btn-branding {
         display: flex;
         justify-content: center;
@@ -61,9 +67,4 @@ font-family: 'Poppins', ns-serif;
         height: 53px;
         left: 43%;
         top: 40px;
-    }
-    
-    .text {
-        margin: auto;
-        max-width: 600px;
     }
