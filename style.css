@@ -5,12 +5,13 @@ serif;
     
      :root {
         --main-font: 'Roboto';
-        --main-color: aliceblue;
+        --main-color: rgb(70, 78, 66);
+        --secondary-color: rgb(243, 255, 239);
     }
     
     .content {
         margin: auto;
-        background-color: rgb(0, 0, 0);
+        background-color: var(--secondary-color);
         color: var(--main-color);
     }
     
@@ -18,6 +19,7 @@ serif;
         text-align: center;
         font-weight: bold;
         padding: 160px 25px;
+        text-shadow: 1px 1px 1px var(--secondary-color);
     }
     /* .heroimg {
         display: block;
@@ -27,7 +29,7 @@ serif;
     } */
     
     h1 {
-        font-family: 'Roboto';
+        font-family: var(--main-font);
         font-style: normal;
         font-weight: 700;
         font-size: 72px;
@@ -36,7 +38,7 @@ serif;
     }
     
     p {
-        font-family: 'Roboto';
+        font-family: var(--main-font);
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -45,7 +47,7 @@ serif;
     }
     
     h4 {
-        font-family: 'Roboto';
+        font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -56,6 +58,8 @@ serif;
         margin: auto;
         max-width: 600px;
         font-family: 'Poppins', ns-serif;
+        text-shadow: 1px 1px 1px rgb(80, 80, 80);
+        letter-spacing: 0.3em;
     }
     
     .btn-branding {
@@ -67,7 +71,7 @@ serif;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         background-color: var(--main-color);
-        color: #000000;
+        color: #f4f6c7;
         position: relative;
         width: 200px;
         height: 53px;
