@@ -19,7 +19,7 @@ serif;
         text-align: center;
         font-weight: bold;
         padding: 160px 25px;
-        text-shadow: 1px 1px 1px var(--secondary-color);
+        text-shadow: 2px 2px 2px var(--secondary-color);
     }
     /* .heroimg {
         display: block;
@@ -50,7 +50,7 @@ serif;
         font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 22px;
         line-height: 30px;
     }
     
@@ -75,6 +75,6 @@ serif;
         position: relative;
         width: 200px;
         height: 53px;
-        left: 43%;
+        left: 38%;
         top: 40px;
     }
