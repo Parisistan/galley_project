@@ -78,3 +78,19 @@ serif;
         left: 38%;
         top: 40px;
     }
+    
+    img {
+        height: 100%;
+        width: auto;
+    }
+    
+    .container {
+        display: grid;
+    }
+    
+    @media (max-width: 960px) {
+        .hero {
+            padding: 0;
+            margin: 0 auto;
+        }
+    }
