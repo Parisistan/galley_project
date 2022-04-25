@@ -80,17 +80,28 @@ serif;
     }
     
     img {
-        height: 100%;
-        width: auto;
+        max-width: 320px;
     }
     
-    .container {
-        display: grid;
+    .row {
+        justify-content: center;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 40px;
     }
+    /* .container {} */
     
     @media (max-width: 960px) {
         .hero {
             padding: 0;
             margin: 0 auto;
         }
+    }
+    
+    .footer {
+        text-align: right;
+        font-size: small;
+        padding-right: 2%;
+        font-family: var(--main-font);
     }
